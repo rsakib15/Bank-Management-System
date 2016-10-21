@@ -10,9 +10,7 @@ namespace BankManagement
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(IdGenarator.generate());
-
-
+            Bank bank = new Bank();
         }
     }
 }

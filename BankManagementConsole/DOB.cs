@@ -4,14 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-/*
-Design a class called "DOB" with the following functionalities:
--[p]day
--[p]month
--[p]year
-+bool set(int d,int m,int y)//returns true if a valid date, false otherwise
-
-*/
 namespace BankManagement
 {
     class DOB

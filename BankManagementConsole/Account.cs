@@ -4,21 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-/*
- * Design an abstract class called "account" with the following functionalities:
-+default constructor
-+parameterized constructor
-+[p] [read only]name
-+[p] [read only]ID(auto generated)
-+[p] [read only]DOB (do not use system object)
-+[p] [read only]nominee
-+[p] [read only] [read only]double balance
-+ abstract bool deposit(double amount)//if the amount can be successfully deposited to the balance return true, else false
-+ abstract bool withdraw(double amount)//if the amount can be successfully withdraw from the balance return true, else false
-+void printAccount()//prints all the account info
-
- * */
-
 namespace BankManagement
 {
     abstract class Account

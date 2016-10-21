@@ -58,6 +58,11 @@ namespace BankManagement
 
         public void printAllAccount()
         {
+
         }
+    }
+
+    public class ArrayList
+    {
     }
 }
